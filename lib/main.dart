@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_web/appRoutes.dart';
 import 'package:portfolio_web/screens/homePageScreens.dart';
+import 'package:portfolio_web/screens/aboutScreens.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,11 +17,11 @@ class MyApp extends StatelessWidget {
         theme: ThemeData.light(
         ),
         home: HomePageScreen(),
-       // routes: {
-       //   AppRoutes.PAGINA_INICIAL: (context) => HomePageScreen(),
-       //   AppRoutes.SOBRE_MIM: (context) => AboutScreen(),
-       //   AppRoutes.TRABALHOS: (context) => WorksScreen(),
-       // }
+        routes: {
+          Rotas.PAGINA_INICIAL: (context) => HomePageScreen(),
+          Rotas.SOBRE_MIM: (context) => AboutScreen(),
+         // Rotas.TRABALHOS: (context) => WorksScreen(),
+        }
     );
   }
 }

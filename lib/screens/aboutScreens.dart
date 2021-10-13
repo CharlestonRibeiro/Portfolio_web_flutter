@@ -1,24 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_web/components/fotoAnimacaoLayout.dart';
 import 'package:portfolio_web/components/sliverAppBarCustom.dart';
+import 'package:portfolio_web/utils/styles.dart';
 
-class HomePageScreen extends StatelessWidget {
+class AboutScreen extends StatefulWidget {
+  @override
+  _AboutScreenState createState() => _AboutScreenState();
+}
 
+class _AboutScreenState extends State<AboutScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
           SliverAppBarCustom(),
-          SliverToBoxAdapter(
-            child: FotosAnimacaoLayout(),
-          )
         ],
       ),
     );
   }
 }
-
-
-
-

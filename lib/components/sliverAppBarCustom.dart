@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio_web/utils/styles.dart';
+import 'package:portfolio_web/components/menuCustom.dart';
 
 class SliverAppBarCustom extends StatelessWidget {
   @override
@@ -18,6 +19,9 @@ class SliverAppBarCustom extends StatelessWidget {
             letterSpacing: -1.2,
             fontSize: 28),
          ),
+      actions: [
+        MenuCustom(),
+      ],
     );
   }
 }
