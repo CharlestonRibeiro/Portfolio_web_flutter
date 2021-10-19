@@ -35,9 +35,9 @@ class FotosAnimacaoLayout extends StatelessWidget {
                           pause: Duration(seconds: 3),
                           animatedTexts: [
                             TypewriterAnimatedText(
-                                'Meu nome é charleston Ribeiro dos Passos \nSou Academico no CST de ADS no IFRO'),
+                                'Meu nome é \nCharleston Ribeiro dos Passos \nSou Academico do \nCST de ADS no IFRO'),
                             TypewriterAnimatedText(
-                                'Meu curso tem foco em programação \nTanto Web quanto Mobile'),
+                                'Meu curso tem foco \nem programação \nTanto Web quanto Mobile'),
                             TypewriterAnimatedText(
                                 'Já trabalhei na faculdade com: \n-Python \n-Django \n-Flutter \n-Postgresql'),
                             TypewriterAnimatedText(

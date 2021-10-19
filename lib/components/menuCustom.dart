@@ -33,7 +33,7 @@ class MenuCustom extends StatelessWidget {
           VerticalDivider(),
           GestureDetector(
             onTap: (){
-            //  Navigator.of(context).pushNamed(AppRoutes.TRABALHOS);
+              Navigator.of(context).pushNamed(Rotas.TRABALHOS);
             },
             child: Text(
               'Trabalhos',
