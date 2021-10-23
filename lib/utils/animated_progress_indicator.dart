@@ -30,7 +30,7 @@ class AnimatedCircularProgressIndicator extends StatelessWidget {
                   strokeWidth: 15.0,
                   value: value,
                   color: colorC,
-                  backgroundColor: Styles.corPorcetagem,
+                  backgroundColor: Styles.corPorcentagem,
                 ),
                 Center(
                   child: Text(

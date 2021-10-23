@@ -50,11 +50,21 @@ class _WorksScreenState extends State<WorksScreen> {
                     ),
                   ),
                 ),
-                CardsCustom(),
-                CardsCustom(),
               ],
             ),
           ),
-        ]));
+
+          SliverGrid.count(
+            crossAxisCount: 3,
+            children: [
+              CardsCustom(color: Colors.black87, title: 'teste card 1',description: 'testestestestestestestestestestestesstestes',),
+              CardsCustom(color: Colors.blue, title: 'teste card 2',description: 'testestestestestestestestestestestesstestes',),
+              CardsCustom(color: Colors.purple, title: 'teste card 3',description: 'testestestestestestestestestestestesstestes',),
+            ],
+          ),
+
+        ]
+        )
+    );
   }
 }

@@ -19,7 +19,7 @@ class FotosAnimacaoLayout extends StatelessWidget {
               ),
             ),
             Container(
-              padding: EdgeInsets.symmetric(vertical: 100),
+              padding: EdgeInsets.symmetric(vertical: 220),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -35,13 +35,11 @@ class FotosAnimacaoLayout extends StatelessWidget {
                           pause: Duration(seconds: 3),
                           animatedTexts: [
                             TypewriterAnimatedText(
-                                'Meu nome é \nCharleston Ribeiro dos Passos \nSou Academico do \nCST de ADS no IFRO'),
+                                'Meu nome é'),
                             TypewriterAnimatedText(
-                                'Meu curso tem foco \nem programação \nTanto Web quanto Mobile'),
+                                'Charleston Ribeiro dos Passos'),
                             TypewriterAnimatedText(
-                                'Já trabalhei na faculdade com: \n-Python \n-Django \n-Flutter \n-Postgresql'),
-                            TypewriterAnimatedText(
-                                'Sou apaxonado pela Udemy, \nfiz cursos como: \n-Mysql \n-Git e Github \n-Linux \n-Arduino '),
+                                'Acadêmico de ADS no IFRO.'),
                           ],
                         ),
                       ),

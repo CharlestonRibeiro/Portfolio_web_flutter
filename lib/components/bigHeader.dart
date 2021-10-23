@@ -38,9 +38,9 @@ class BigHeader extends StatelessWidget {
                     ),
                     child: AnimatedTextKit(
                       animatedTexts: [
-                        FadeAnimatedText('do IT!'),
-                        FadeAnimatedText('do it RIGHT!!'),
-                        FadeAnimatedText('do it RIGHT NOW!!!'),
+                        FadeAnimatedText('Sobre mim'),
+                        FadeAnimatedText('Acadêmico'),
+                        FadeAnimatedText('Futuro programador'),
                       ],
                     ),
                   ),
