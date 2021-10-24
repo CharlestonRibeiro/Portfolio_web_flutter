@@ -41,7 +41,7 @@ class Contact extends StatelessWidget {
                       child: Column(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(30),
+                            padding: const EdgeInsets.all(20),
                             child: Container(
                               width: MediaQuery.of(context).size.width * 0.20,
                               height: MediaQuery.of(context).size.height * 0.15,
@@ -71,7 +71,7 @@ class Contact extends StatelessWidget {
                       child: Column(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(30),
+                            padding: const EdgeInsets.all(20),
                             child: Container(
                               width: MediaQuery.of(context).size.width * 0.20,
                               height: MediaQuery.of(context).size.height * 0.15,
@@ -100,7 +100,7 @@ class Contact extends StatelessWidget {
                       child: Column(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(30),
+                            padding: const EdgeInsets.all(20),
                             child: Container(
                               width: MediaQuery.of(context).size.width * 0.20,
                               height: MediaQuery.of(context).size.height * 0.15,

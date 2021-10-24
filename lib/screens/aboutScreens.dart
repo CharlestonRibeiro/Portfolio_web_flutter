@@ -28,7 +28,7 @@ class _AboutScreenState extends State<AboutScreen> {
                Padding(padding: EdgeInsets.only(top: 40)),
                CircleAvatar(
                  radius: 70,
-                 backgroundImage: AssetImage("assets/imagens/p.jpg"),
+                 backgroundImage: AssetImage("assets/imagens/perfil.jpeg"),
                ),
                Padding(padding: EdgeInsets.only(top: 40)),
                StyledText(

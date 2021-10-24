@@ -37,9 +37,9 @@ class FotosAnimacaoLayout extends StatelessWidget {
                             TypewriterAnimatedText(
                                 'Meu nome é'),
                             TypewriterAnimatedText(
-                                'Charleston Ribeiro dos Passos'),
+                                'Charleston\n   Ribeiro\n      dos\n   Passos'),
                             TypewriterAnimatedText(
-                                'Acadêmico de ADS no IFRO.'),
+                                'Acadêmico\nde ADS no IFRO.'),
                           ],
                         ),
                       ),
