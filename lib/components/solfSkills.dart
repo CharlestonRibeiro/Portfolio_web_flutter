@@ -12,8 +12,7 @@ class SoftSkills extends StatelessWidget {
         SizedBox(
           width: MediaQuery.of(context).size.width * 0.1,
           child: AnimatedCircularProgressIndicator(
-            colorC: Styles.corSlill1,
-
+            colorC: Styles.corSkill1,
             percentage: 0.27,
             label: "Organização",
           ),
@@ -22,7 +21,7 @@ class SoftSkills extends StatelessWidget {
         SizedBox(
           width: MediaQuery.of(context).size.width * 0.1,
           child: AnimatedCircularProgressIndicator(
-            colorC: Styles.corSlill2,
+            colorC: Styles.corSkill2,
             percentage: 0.14,
             label: "Individualidade",
           ),
@@ -31,7 +30,7 @@ class SoftSkills extends StatelessWidget {
         SizedBox(
           width: MediaQuery.of(context).size.width * 0.1,
           child: AnimatedCircularProgressIndicator(
-            colorC: Styles.corSlill3,
+            colorC: Styles.corSkill3,
             percentage: 0.27,
             label: "Flexibilidade",
           ),
@@ -40,7 +39,7 @@ class SoftSkills extends StatelessWidget {
         SizedBox(
           width: MediaQuery.of(context).size.width * 0.1,
           child: AnimatedCircularProgressIndicator(
-            colorC: Styles.corSlill4,
+            colorC: Styles.corSkill4,
             percentage: 0.32,
             label: "Suporte",
           ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio_web/appRoutes.dart';
 import 'package:portfolio_web/components/menuCustomMinimo.dart';
+import 'package:portfolio_web/screens/contactSceens.dart';
 import 'package:portfolio_web/screens/homePageScreens.dart';
 import 'package:portfolio_web/screens/aboutScreens.dart';
 import 'package:portfolio_web/screens/worksScreen.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
           Rotas.SOBRE_MIM: (context) => AboutScreen(),
           Rotas.TRABALHOS: (context) => WorksScreen(),
           Rotas.MENU_CUSTOM_MINIMO: (context) => MenuCustomMinimo(),
+          Rotas.CONTATO: (context) => Contact(),
         }
     );
   }

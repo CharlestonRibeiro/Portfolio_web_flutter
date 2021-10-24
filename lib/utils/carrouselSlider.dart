@@ -6,9 +6,9 @@ import 'package:flutter/widgets.dart';
 final List<String> imgList = [
   'https://source.unsplash.com/1600x500/?mac',
   'https://source.unsplash.com/1600x500/?programming',
-  'https://source.unsplash.com/1600x500/?flutter',
-  'https://source.unsplash.com/1600x500/?python',
-  'https://source.unsplash.com/1600x500/?jobs',
+  'https://source.unsplash.com/1600x500/?technology',
+  'https://source.unsplash.com/1600x500/?programming language',
+  'https://source.unsplash.com/1600x500/?electronics',
 ];
 
 class CarrouselSliderScreen extends StatelessWidget {
@@ -18,7 +18,7 @@ class CarrouselSliderScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return CarouselSlider.builder(
         options: CarouselOptions(
-          height: 500,
+          height: 400,
           viewportFraction: 0.8,
           autoPlay: true,
           autoPlayInterval: Duration(seconds: 5),

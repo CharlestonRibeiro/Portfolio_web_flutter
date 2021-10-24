@@ -45,10 +45,10 @@ class _AboutScreenState extends State<AboutScreen> {
                    width: MediaQuery.of(context).size.width,
                    height: MediaQuery.of(context).size.height * 0.25,
                    child: const AutoSizeText(
-                     "    Sou acadêmico de Analise e Desevolvimento de Sistemas - ADS pelo Instituto Federal de Rôndonia - IFRO, "
-                     " o curso possui uma grande curricular focada em programação, aonde as principais tecnologias utilizadas são "
-                     " Python, Django, Flutter e Postgresql. Sou apaixonado pela plataforma Udemy, onde já fiz cursos de Mysql, "
-                     " Git e Github, Linux, Arduino. ",
+                     "    Sou acadêmico de Análise e Desenvolvimento de Sistemas - ADS pelo Instituto Federal de Rôndonia - IFRO. "
+                     " O curso possui uma grade curricular focada em programação, aonde as principais tecnologias utilizadas são: "
+                     " Python, Django, Flutter e PostgreSQL. Utilizo de forma complementar a plataforma Udemy, onde já obtive alguns "
+                     " certificados de tecnologias como por exemplo: Mysql, Git e Github, Linux, Arduino. ",
                      style: TextStyle(
                        fontSize: 17,
                      ),
@@ -56,17 +56,6 @@ class _AboutScreenState extends State<AboutScreen> {
                    ),
                  ),
                ),
-               /*
-               Text('Habilidades em Programação',
-                 style: TextStyle(
-                     fontSize: 25
-                 ),),
-
-               Padding(padding: EdgeInsets.fromLTRB(0, 30, 0, 30)),
-               ProgrammingSkills(),
-               Padding(padding: EdgeInsets.only(top: 60, bottom: 60)),
-
-                */
 
                Text('Teste de Perfil',
                  style: TextStyle(
@@ -89,7 +78,7 @@ class _AboutScreenState extends State<AboutScreen> {
                    height: MediaQuery.of(context).size.height * 0.25,
                    child: const AutoSizeText(
                          "    O perfil Agregador indica alguém que busca foco nas pessoas e no seu desenvolvimento de forma leve "
-                         " e adaptável. O bem-estar do grupo deixando as pessoas terem amplas possibilidades de expressarem são são "
+                         " e adaptável. O bem-estar do grupo deixando as pessoas terem amplas possibilidades de expressarem são "
                          " relevantes. Existe uma tendência para ambientes colaborativos onde as pessoas possam interagir e se "
                          " expressar. Prefere também ambientes mais livres e com menos restrições, onde as pessoas possam se "
                          " desenvolver e juntas crescer. Tende a preferir sistemas que valorizem as pessoas e que as reconheçam. "

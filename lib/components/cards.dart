@@ -4,38 +4,25 @@ import 'package:flutter/material.dart';
 class CardsCustom extends StatelessWidget {
 
   final color;
-  final title;
-  final description;
+  final imagem;
 
-  const CardsCustom({Key?key, this.color, this.title, this.description}) : super(key: key);
+  const CardsCustom({Key?key, this.color, this.imagem}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-          child: Container(
-            width: MediaQuery.of(context).size.width ,
-            height: MediaQuery.of(context).size.height ,
-            color: color,
-            child: Column(
-              children: [
-                AutoSizeText(title,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  fontSize: 17
-                ),
-                  textAlign: TextAlign.justify,),
-
-                AutoSizeText(description,
-                  overflow: TextOverflow.ellipsis,
-                  maxLines: 3,
-                  style: TextStyle(
-                      fontSize: 17
-                  ),
-                  textAlign: TextAlign.justify,)
-
-              ],
+    return SingleChildScrollView(
+      child: Card(
+            child: Container(
+              width: 100,
+              height: 400 ,
+              color: color,
+              child: Column(
+                children: [
+                  Image.asset(imagem),
+                ],
+              ),
             ),
           ),
-        );
+    );
   }
 }

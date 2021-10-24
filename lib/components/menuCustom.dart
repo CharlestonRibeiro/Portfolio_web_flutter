@@ -41,10 +41,18 @@ class MenuCustom extends StatelessWidget {
             ),
           ),
           VerticalDivider(),
-          Text(
-            'Contato',
-            style: TextStyle(color: Styles.corNome, fontSize: 17),
+
+          GestureDetector(
+            onTap: (){
+              Navigator.of(context).pushNamed(Rotas.CONTATO);
+            },
+            child: Text(
+              'Contato',
+              style: TextStyle(color: Styles.corNome, fontSize: 17),
+            ),
           ),
+
+
         ],
       ),
     );

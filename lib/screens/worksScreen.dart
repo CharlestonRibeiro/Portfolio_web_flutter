@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio_web/components/cards.dart';
 import 'package:portfolio_web/components/sliverAppBarCustom.dart';
 import 'package:portfolio_web/utils/carrouselSlider.dart';
+import 'package:portfolio_web/utils/styles.dart';
 import 'package:styled_text/styled_text.dart';
 
 class WorksScreen extends StatefulWidget {
@@ -27,7 +28,7 @@ class _WorksScreenState extends State<WorksScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Padding(padding: EdgeInsets.only(top: 20)),
+                Padding(padding: EdgeInsets.only(top: 80)),
                 StyledText(
                   text: "<bold><h1> Meus Trabalhos </h1></bold>",
                   tags: {
@@ -36,18 +37,21 @@ class _WorksScreenState extends State<WorksScreen> {
                     'h1': StyledTextTag(style: TextStyle(fontSize: 30))
                   },
                 ),
+
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(60, 40, 60, 0),
+                  padding: const EdgeInsets.only(top: 5),
                   child: Container(
                     width: MediaQuery.of(context).size.width,
-                    height: MediaQuery.of(context).size.height * 0.25,
+                    height: MediaQuery.of(context).size.height * 0.1,
                     child: const AutoSizeText(
-                      "     Os meus últimos anos como desenvolvedor de Sistemas, me renderam algumas contribuições com negócios e empresas locais, os quais orgulhosamente estão expostos abaixo:",
+                      "     Durante a faculdade, desenvolvi varias atividades de programação,"
+                      " aqui está alguns exemplos. ",
                       style: TextStyle(
                         fontSize: 17,
                       ),
                       textAlign: TextAlign.justify,
                     ),
+                    alignment: Alignment.center,
                   ),
                 ),
               ],
@@ -57,9 +61,9 @@ class _WorksScreenState extends State<WorksScreen> {
           SliverGrid.count(
             crossAxisCount: 3,
             children: [
-              CardsCustom(color: Colors.black87, title: 'teste card 1',description: 'testestestestestestestestestestestesstestes',),
-              CardsCustom(color: Colors.blue, title: 'teste card 2',description: 'testestestestestestestestestestestesstestes',),
-              CardsCustom(color: Colors.purple, title: 'teste card 3',description: 'testestestestestestestestestestestesstestes',),
+              CardsCustom(imagem:"assets/imagens/app.bolo.jpeg", color: Styles.corCard1,),
+              CardsCustom(imagem:"assets/imagens/app.jap.jpeg", color: Styles.corCard2,),
+              CardsCustom(imagem:"assets/imagens/app.kam.jpeg", color: Styles.corCard3,),
             ],
           ),
 
