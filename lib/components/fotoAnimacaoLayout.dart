@@ -19,7 +19,7 @@ class FotosAnimacaoLayout extends StatelessWidget {
               ),
             ),
             Container(
-              padding: EdgeInsets.symmetric(vertical: 220),
+              padding: EdgeInsets.symmetric(vertical: 150),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
