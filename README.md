@@ -1,16 +1,24 @@
-# portfolio_web
+# Portfólio Web Flutter
 
-A new Flutter application.
+Aplicação desenvolvida na disciplina de programação mobile, utilizado <br/> 
+o framework Flutter para desenvolver uma página web para portfólio.
 
-## Getting Started
+## Link: 
 
-This project is a starting point for a Flutter application.
+<https://charlestonribeiro.github.io/Portfolio_web_flutter/>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [x] Flutter Web.
+- [x] Hospedagem no servidor do GitHunb.
+- [x] Consumo de imagem na web.
+- [x] Navegação entre páginas.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Telas
+
+<img src="https://github.com/CharlestonRibeiro/Portfolio_web_flutter/blob/master/assets/imagesReadme/1.2.png?raw=true" width="1200" height="600" />
+
+<img src="https://github.com/CharlestonRibeiro/Portfolio_web_flutter/blob/master/assets/imagesReadme/2.2.png?raw=true" width="1200" height="600" />
+
+<img src="https://github.com/CharlestonRibeiro/Portfolio_web_flutter/blob/master/assets/imagesReadme/3.2.png?raw=true" width="1200" height="600" />
+
+<img src="https://github.com/CharlestonRibeiro/Portfolio_web_flutter/blob/master/assets/imagesReadme/4.2.png?raw=true" width="1200" height="600" />
